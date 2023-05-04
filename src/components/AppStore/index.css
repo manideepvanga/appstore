@@ -1,0 +1,60 @@
+/* Write your CSS here */
+* {
+  font-family: Bree Serif;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to top, #ace0f9, #fff1eb);
+}
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 5vw;
+}
+.searchcontainer {
+  border: 1px solid gray;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40vw;
+}
+input {
+  width: 37vw;
+  border: none;
+  outline: none;
+  height: 28px;
+  background-color: transparent;
+}
+.searchicon {
+  height: 30px;
+  width: 30px;
+}
+.tabitemcontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 40vw;
+}
+.unorder1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  flex-wrap: wrap;
+  width: 50vw;
+}
+.unorder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+
+  flex-wrap: wrap;
+}

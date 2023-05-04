@@ -1,0 +1,25 @@
+/* Write your CSS here */
+li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding-bottom: 5px;
+}
+
+.active {
+  color: #2563eb;
+  text-underline-offset: 10px;
+  text-decoration: underline;
+}
+button {
+  background-color: transparent;
+
+  border: none;
+  cursor: pointer;
+  color: #7b8794;
+  font-weight: 600;
+  font-size: 15px;
+  text-underline-offset: 10px;
+  text-decoration: underline;
+}

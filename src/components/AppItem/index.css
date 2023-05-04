@@ -1,0 +1,18 @@
+/* Write your CSS here */
+* {
+  box-sizing: border-box;
+}
+.appitemcontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  margin: 10px;
+  border-radius: 10px;
+  padding: 20px;
+}
+.appitems {
+  height: 100px;
+  width: 80px;
+}
